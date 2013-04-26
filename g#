@@ -1,0 +1,31 @@
+#! /bin/sh
+
+echo "  ________       .__           _  _   "
+echo " /  _____/  ____ |  |   ______| || |__"
+echo "/   \  ___ /  _ \|  |  /  _ \   __   /"
+echo "\    \_\  (  <_> )  |_(  <_> )  ||  | "
+echo " \______  /\____/|____/\____/_  ~~  _\ "
+echo "        \/                    |_||_|  "
+echo "                            "
+sleep 1
+echo " Golo #"
+echo " v.0.0.1"
+echo " --------"
+sleep 1
+echo " downloading mono runtime"
+sleep 1
+echo "."
+sleep 1
+echo "."
+sleep 1
+echo "."
+
+echo "starting mono runtime"
+echo "mono runtime started. Wooh!! That's fast!"
+echo "building Golo # to .NET Framework...."
+sleep 1
+echo "Golo # has built in    1   seconds."
+printf "#> " && read foo
+
+echo ${foo:3}
+echo "NullPointerException Object Variable not set "
