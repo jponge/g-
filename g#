@@ -28,4 +28,8 @@ echo "Golo # has built in    1   seconds."
 printf "#> " && read foo
 
 echo ${foo:3}
-echo "NullPointerException Object Variable not set "
+if [ -f fuckit ]; then
+  echo "NullPointerException Object Variable not set "
+else
+  exit 0
+fi
