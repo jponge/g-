@@ -12,14 +12,9 @@ echo " Golo #"
 echo " v.0.0.1"
 echo " --------"
 sleep 1
-echo " downloading mono runtime"
+echo " downloading mono runtime from Sonatype"
+echo "... [done, thanks JVZ]"
 sleep 1
-echo "."
-sleep 1
-echo "."
-sleep 1
-echo "."
-
 echo "starting mono runtime"
 echo "mono runtime started. Wooh!! That's fast!"
 echo "building Golo # to .NET Framework...."
